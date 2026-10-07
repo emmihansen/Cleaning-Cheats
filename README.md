@@ -28,8 +28,8 @@ Fonts are Nunito for headings, Nunito Sans for body text and Caveat for the hand
 
 ## Before launch checklist
 
-### 1. Confirm the email address
-The site uses **cleanercoach@outlook.com** from the earlier brief. If Cleaning Cheats has a different email, search and replace it in all `.html` files and in `assets/js/main.js`.
+### 1. Email address
+The site uses **cleanercoach@outlook.com** (confirmed). If it ever changes, search and replace it in all `.html` files and in `assets/js/main.js`.
 
 ### 2. Make the quote form deliver to your inbox (5 minutes)
 Create a free form at https://formspree.io and paste its URL into `formEndpoint: ''` at the top of `assets/js/main.js`. Until then, a submitted quote opens the visitor's email app.
@@ -53,7 +53,7 @@ The owner's photo is on the About page (`assets/img/owner.webp`). Other spots ma
 Use square `.webp` files about 1000×1000, under ~200 KB each, with a short `alt` description.
 
 ### 6. Make the About page yours
-Look for `EDIT` comments in `about.html`: add the owner's name (also to the photo's alt text) and story. Remove the "Love a good clean and a great team?" box if you aren't hiring.
+Becca Hansen's name and photo are in place. The story paragraphs (marked with an `EDIT` comment in `about.html`) are a starting point; Becca's own words about how Cleaning Cheats started will work best. Remove the "Love a good clean and a great team?" box if you aren't hiring.
 
 ### 7. Confirm the copy matches how you work
 Edit anything that isn't true:
